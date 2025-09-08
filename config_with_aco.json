@@ -1,0 +1,65 @@
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/9yzxjnNzPFCojFzULU4N5d/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Bang1dSzsvNwaEnTudtw2G/graphql",
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
+        "cs": {
+          "AC-View-ID": "0a933a9c-a7f6-4f20-aabc-4303d930e3dc",
+          "AC-Price-Book-ID": "east_coast_inc",
+          "AC-Source-Locale": "en-US"
+        }
+      },
+      "plugins": {
+        "picker": {
+           "rootCategory": "2"
+         }
+      }
+    }
+  }
+}
+
+
+another sample  ?  
+
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/QyEqr5zS1dMDikt66dgJnP/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/QyEqr5zS1dMDikt66dgJnP/graphql",
+      "headers": {
+        "cs": {
+          "AC-Channel-Id":"8563851b-d44c-4be6-b6a8-e054dcf11b9d",
+          "AC-Environment-Id":"QyEqr5zS1dMDikt66dgJnP",
+          "AC-Price-Book-Id":"NLI",
+          "AC-Scope-Locale":"en-US",
+          "Magento-Environment-Id": "QyEqr5zS1dMDikt66dgJnP",
+          "Magento-Website-Code": "WEBSITE_CODE",
+          "Magento-Store-Code": "STORE_CODE",
+          "Magento-Store-View-Code": "en-US",
+          "Magento-Customer-Group": "NLI",
+          "X-Api-Key": "storefront-catalog-apollo",
+          "content-type": "application/json"
+        }
+      },
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Testing",
+        "store-id": 1,
+        "store-name": "suite release 3 prex dropin accs",
+        "store-url": "https://acosterel3--aem-boilerplate-commerce--hlxsites.aem.live/",
+        "store-view-id": 1,
+        "store-view-name": "en-US",
+        "store-view-code": "en-US",
+        "website-id": 1,
+        "website-name": "",
+        "environment-id": "QyEqr5zS1dMDikt66dgJnP",
+        "website-code": "WEBSITE_CODE",
+        "store-code": "STORE_CODE"
+      }
+    }
+  }
+}

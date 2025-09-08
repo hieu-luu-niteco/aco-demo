@@ -1,22 +1,40 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/9yzxjnNzPFCojFzULU4N5d/graphql",
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Bang1dSzsvNwaEnTudtw2G/graphql",
       "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Bang1dSzsvNwaEnTudtw2G/graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
-          "AC-View-ID": "0a933a9c-a7f6-4f20-aabc-4303d930e3dc",
+          "AC-View-ID":  "0a933a9c-a7f6-4f20-aabc-4303d930e3dc",
+          "AC-Source-Locale": "en-US",
           "AC-Price-Book-ID": "east_coast_inc",
-          "AC-Source-Locale": "en-US"
+          "AC-Environment-ID": "Bang1dSzsvNwaEnTudtw2G",
+          "X-Api-Key": "storefront-catalog-apollo",
+           "content-type": "application/json"
         }
+      },
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Testing",
+        "environment-id": "Bang1dSzsvNwaEnTudtw2G",
+        "store-code": "YOUR_STORE_CODE",
+        "store-id": "YOUR_STORE_ID",
+        "store-name": "YOUR_STORE_NAME",
+        "store-url": "YOUR_STORE_URL",
+        "store-view-code": "YOUR_STORE_VIEW_CODE",
+        "store-view-id": "YOUR_STORE_VIEW_ID",
+        "store-view-name": "YOUR_STORE_VIEW_NAME",
+        "website-code": "YOUR_WEBSITE_CODE",
+        "website-id": "YOUR_WEBSITE_ID",
+        "website-name": "YOUR_WEBSITE_NAME"
       },
       "plugins": {
         "picker": {
-           "rootCategory": "2"
-         }
+          "rootCategory": "2"
+        }
       }
     }
   }
