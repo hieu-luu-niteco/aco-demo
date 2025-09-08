@@ -1,0 +1,83 @@
+{
+  "project": "My Project",
+  "editUrlLabel": "Document Authoring",
+  "editUrlPattern": "https://da.live/edit#/hieu-luu-niteco/aemshop-demo",
+  "plugins": [
+    {
+      "id": "library",
+      "title": "Blocks AEM Library",
+      "environments": [
+        "edit"
+      ],
+      "url": "/tools/sidekick/library.html",      
+      "includePaths": [
+        "**.docx**"
+      ]
+    }, 
+    {
+      "id": "asset-library",
+      "title": "AEM Assets",
+      "environments": [
+      "edit","dev"
+      ],      
+      "url": "https://experience.adobe.com/solutions/CQ-helix-assets-addon/static-assets/resources/asset-selector.html",
+      "isPalette": true,
+      "passConfig": true,
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+    }, 
+    {
+      "id": "tools",
+      "title": "Tools",
+      "isContainer": true
+    },
+    {
+      "containerId": "tools",
+      "id": "goolge-search",
+      "title": "Google Search",
+      "environments": [
+        "edit", "dev", "preview", "live", "prod"
+      ],
+      "url": "https://google.com?search=aem+geeks",
+      "passReferrer": true, 
+      "passConfig": false,
+      "excludePaths": [
+        "/fr/**.docx**"
+      ],
+      "includePaths": [
+        "**.docx**",
+        "/fr/blogs/**"
+      ]
+    }, 
+    {
+      "containerId": "tools",
+      "id": "contactus",
+      "title": "Contact US",
+      "environments": [ "edit","dev", "preview", "live", "prod" ],
+      "url": "/tools/contactus/contactus.html?user=aem-geeks",
+      "isPalette": true,
+      "passConfig": false,
+      "includePaths": [ "**/:x**" ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:500px; height: calc(100vh - 60px)"
+    }, 
+    {
+      "id": "cif",
+      "title": "Commerce",
+      "environments": [
+        "edit"
+      ],
+      "url": "/tools/picker/dist/index.html",
+      "isPalette": true,
+      "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+    },
+    {
+      "id": "personalisation",
+      "title": "Personalisation",
+      "environments": [
+        "edit"
+      ],
+      "url": "/tools/segments/dist/index.html",
+      "isPalette": true,
+      "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+    }
+  ]
+}
